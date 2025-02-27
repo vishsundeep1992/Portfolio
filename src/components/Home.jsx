@@ -11,13 +11,13 @@ import pic from '../assets/Images/coder.gif'
 function Home() {
     return (
         <>
-            <div name='Home' className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-20'>
+            <div name='Home' className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-18 dark:bg-slate-700 dark:text-white'>
                 <div className='flex flex-col md:flex-row'>
                     <div className='md:w-1/2 md:mt-24 order-2 md:order-1'>
                         <span >Welcome in My Feed</span>
                         <div className='flex flex-auto space-x-2 md:text-3xl w-[100px] md:w-auto'><h1>Hello, I'm a </h1>
                             {/* <span className='text-red-700 font-bold'>Developer</span> */}
-                            <ReactTyped className='text-red-700 font-bold w-[5px] md:w-auto'
+                            <ReactTyped className='text-red-600 font-bold w-[5px] md:w-auto'
                                 strings={[
                                     "Web Developer",
                                     "Web Designer",
@@ -27,7 +27,7 @@ function Home() {
                                 backSpeed={50}
                                 loop
                             >
-                                <input type="text" />
+                                <input type="text" className='w-[120px] md:w-[100%]'/>
                             </ReactTyped>
 
                         </div>

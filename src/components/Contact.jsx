@@ -30,12 +30,12 @@ function Contact() {
             <div name='Contacts' className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-20'>
                 <h1 className='text-3xl font-bold mb-5'>Contact me</h1>
                 <span>Please fill out the form below to contact me</span>
-                <div className='flex flex-col justify-center mt-5'>
+                <div className='flex justify-center mt-5'>
                     <form
                         onSubmit={handleSubmit(onSubmit)}
                         // action="https://getform.io/f/broyyeoa" method="POST"
                         className='bg-slate-200 p-4 rounded-xl font-semibold'>
-                        <h1 className='text-xl font-semibold mb-4 text-center'>Send your Message</h1>
+                        <h1 className='text-xl font-semibold mb-4 text-center text-black'>Send your Message</h1>
                         <div className='flex flex-col mb-4'>
                             <label className='block text-gray-700 '>Full Name</label>
                             <input

@@ -11,7 +11,7 @@ import toast, { Toaster } from 'react-hot-toast';
 function App() {
   return (
     <>
-     <div>
+     <div className='dark:bg-slate-700 dark:text-white'>
      <Navbar/>
       <Home/>
       <About/>
