@@ -68,16 +68,16 @@ const cardItem=[{
 ]
     return (
         <div>
-            <div name='Experience' className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-20'>
+            <div name='Experience' className='flex flex-wrap flex-col max-w-screen-2xl container mx-auto px-4 md:px-20 my-20'>
                 <h1 className='text-3xl font-bold mb-5'>Experience</h1>
                 <span className=''>
                     I have more than 4.5 years of experience in below technologies. 
                 </span>
-                <div className='grid justify-between grid-cols-1 md:grid-cols-5 gap-3 mt-5'>
+                <div className='flex flex-wrap justify-between grid-cols-1 md:grid-cols-5 gap-3 mt-5'>
                     {
                         cardItem.map(({id,logo,name})=>(
                             <div key={id} className=''>
-                            <div className="max-w-sm p-6 hover:scale-105 hover:border  bg-white border flex flex-col items-center border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+                            <div className="max-w-sm p-6  hover:scale-105 hover:border w-[110px] md:w-auto bg-white border flex flex-col items-center border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
                                 <img className="w-[40px] h-[40px]  text-gray-500 dark:text-gray-400 mb-3" src={logo}/>
                                 <a href="#">
                                     <h5 className="mb-2 text-md font-semibold tracking-tight text-gray-900 dark:text-white">{name}</h5>

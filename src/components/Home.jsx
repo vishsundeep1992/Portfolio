@@ -11,11 +11,11 @@ import pic from '../assets/Images/coder.gif'
 function Home() {
     return (
         <>
-            <div name='Home' className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-18 dark:bg-slate-700 dark:text-white'>
+            <div name='Home' className='max-w-screen-2xl container mx-auto px-4 md:px-20 py-10 my-18 dark:bg-slate-700 dark:text-white'>
                 <div className='flex flex-col md:flex-row'>
                     <div className='md:w-1/2 md:mt-24 order-2 md:order-1'>
-                        <span >Welcome in My Feed</span>
-                        <div className='flex flex-auto space-x-2 md:text-3xl w-[100px] md:w-auto'><h1>Hello, I'm a </h1>
+                        <span>Welcome in My Feed</span>
+                        <div className='flex flex-auto space-x-2 text-xl md:text-3xl w-[120px] md:w-auto'><h1>Hello, I'm a </h1>
                             {/* <span className='text-red-700 font-bold'>Developer</span> */}
                             <ReactTyped className='text-red-600 font-bold w-[5px] md:w-auto'
                                 strings={[
@@ -27,7 +27,7 @@ function Home() {
                                 backSpeed={50}
                                 loop
                             >
-                                <input type="text" className='w-[120px] md:w-[100%]'/>
+                                <input type="text" className='w-[150px] md:w-[100%] bg-transparent'/>
                             </ReactTyped>
 
                         </div>
@@ -53,7 +53,7 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className='md:w-1/2 order-1'>
+                    <div className='md:w-1/2 order-1 py-10'>
                     <img src={pic} alt=''/>
                     </div>
                 </div>

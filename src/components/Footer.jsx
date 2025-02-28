@@ -7,7 +7,7 @@ function Footer() {
         <>
             <hr />
             <footer className=''>
-                <div className='max-w-screen-2xl container text-center mx-auto px-4 md:px-20 my-5'>
+                <div className='max-w-screen-2xl container text-center mx-auto px-4 md:px-20 py-5'>
                     <div className='flex flex-col items-center justify-center'>
                        <div className='flex space-x-4'>
                        <FaFacebook size={20}/>
