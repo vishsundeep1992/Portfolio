@@ -73,7 +73,7 @@ const cardItem=[{
                 <span className=''>
                     I have more than 4.5 years of experience in below technologies. 
                 </span>
-                <div className='flex flex-wrap justify-between grid-cols-1 md:grid-cols-5 gap-3 mt-5'>
+                <div className='flex flex-wrap justify-between md:grid grid-cols-1 md:grid-cols-5 gap-3 mt-5'>
                     {
                         cardItem.map(({id,logo,name})=>(
                             <div key={id} className=''>
