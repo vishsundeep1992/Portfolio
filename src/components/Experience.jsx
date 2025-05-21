@@ -69,11 +69,12 @@ const cardItem=[{
     return (
         <div>
             <div name='Experience' className='flex flex-wrap flex-col max-w-screen-2xl container mx-auto px-4 md:px-20 my-20'>
-                <h1 className='text-3xl font-bold mb-5'>Experience</h1>
+                <h1 className='text-5xl font-bold mb-5'>EXPERIENCE</h1>
+
                 <span className=''>
                     I have more than 4.5 years of experience in below technologies. 
                 </span>
-                <div className='flex flex-wrap justify-between md:grid grid-cols-1 md:grid-cols-5 gap-3 mt-5'>
+                <div className='flex flex-wrap justify-between md:grid gap-y-2 grid-cols-1 md:grid-cols-5 gap-1 md:gap-2 mt-5'>
                     {
                         cardItem.map(({id,logo,name})=>(
                             <div key={id} className=''>
